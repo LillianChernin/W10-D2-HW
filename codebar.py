@@ -24,7 +24,7 @@ class Instructor(Member):
         elif len(self.skills) == 1:
             print(self.skills[0])
 
-class Workshop(Instructor, Student):
+class Workshop():
     def __init__(self,date,subject):
         self.date = date
         self.subject = subject
